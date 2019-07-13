@@ -38,6 +38,11 @@ class Song
     end
     counts
   end
+  
+  def self.artist_count
+    counts = {}
+    @@artists.each do |artist|
+      if artists
     
 
   
